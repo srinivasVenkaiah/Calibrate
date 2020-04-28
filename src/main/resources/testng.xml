@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Calibrate Application Automation Test Suite" parallel="none">
+
+	<listeners>
+		<listener class-name="Analyzer.MyTransformer" />
+	</listeners>
+
+	<test name="New Calibrate App Test Cases" preserve-order="true">
+		<classes>
+			<!-- <class name="com.testcases.LoginPageTest"></class>
+			<class name="com.testcases.SettingsPageTest"></class>
+			<class name="com.testcases.CompaniesPageTest"></class>
+			<class name="com.testcases.AssetsPageTest"></class>
+			<class name="com.testcases.CalibrationPageTest"></class>
+			<class name="com.testcases.CapturePageTest"></class> -->
+			<class name="com.testcases.AnalysePageTest"></class>
+			<class name="com.testcases.DashBoardPageTest"></class>
+		</classes>
+	</test>
+</suite>
